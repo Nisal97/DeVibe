@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/addDevice"
+            android:icon="@drawable/add"
+            android:title="Add a device" />
+        <item
+            android:id="@+id/controls"
+            android:icon="@drawable/controlsnew"
+            android:title="Controls" />
+        <!--<item-->
+            <!--android:id="@+id/faq"-->
+            <!--android:icon="@drawable/faq"-->
+            <!--android:title="FAQ" />-->
+        <item
+            android:id="@+id/advanced_settings"
+            android:icon="@drawable/settings"
+            android:title="Advanced Settings" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/feedbacknew"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/logout"
+            android:title="Sign out" />
+
+    </group>
+
+</menu>

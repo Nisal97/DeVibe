@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">De-Vibe</string>
+    <string name="topic" size="28">De-Vibe</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_secretcode">Secret Code</string>
+    <string name="prompt_username">User Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_retypepassword">Retype Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="signup">Sign Up</string>
+    <string name="signup_email">E-Mail</string>
+    <string name="signup_signin">Already an user? Sign in</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="title_activity_signin">Sign in</string>
+    <string name="signin">Sign In</string>
+    <string name="signin_signup">New to De-Vibe? Sign up</string>
+    <string name="title_activity_device_search">De-Vibe</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="search_device">Search for device</string>
+    <string name="radiobutton1">Device ID: Uv123-hty001</string>
+    <string name="radiobutton2">Device ID: Uv123-hry003</string>
+    <string name="radiobutton3">Device ID: Uv456-rut044</string>
+    <string name="device_confirm">Confirm</string>
+    <string name="settings_threshold">Threshold level</string>
+    <string name="tip">Tip: Adjust sound cut off between indoor and outdoor</string>
+    <string name="settings_theme">Theme:</string>
+    <string name="pairedlist">Show paired devices</string>
+
+    <string name="details">Tip: Adjust sound cut off between indoor and outdoor \n
+    Using this button you can choose the what kind of a environment you are in and according to the place you can manually change the sound cutt off level.
+    </string>
+    <string name="title_activity_controls">Controls</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_faq">FAQ</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Own Your Device</string>
+    <string name="slide_1_desc">Control your device through the app </string>
+
+    <string name="slide_2_title">Set Levels</string>
+    <string name="slide_2_desc">Change the threshold level of your mics through advanced settings</string>
+
+    <string name="slide_3_title">Test</string>
+    <string name="slide_3_desc">Check the condition of your device by pressing the test button on the controls page</string>
+
+    <string name="slide_4_title">FAQ</string>
+    <string name="slide_4_desc">Never worry about your questions. Just signin and check the FAQ section or ping us through the contact us option</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> SWAT -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="faq">
+    <b>
+        \n \n
+        1.Is it safe to use a Bluetooth device near the head? \n \n
+    </b>
+            Yes it is. Bluetooth is the name of a wireless technology that uses pulsed radio frequency signals. In De-Vibe Class 3 transmitters are used.
+    They are the weakest and operate in a range of less than 10 meters and have a peak transmission power of 1 mW. Basically the technology used in De-Vibe
+    won\'t give any matters to the health. \n \n \n
+
+    <b>
+        2.How much time will the battery last on the device? \n \n
+    </b>
+            Depends on the battery capacity the user selects when purchasing the device \n \n \n
+    <b>
+        3.Can we replace the battery if the battery is dead? \n \n
+    </b>
+            Yes. Batteries can be purchased in any shops which the devices are available. \n \n \n
+    <b>
+        4.How to pair more than 1 device \n \n
+    </b>
+            You can only connect to a one device at once. If you want to connect to another device unpair the device and reconnect by using bluetooth. \n \n \n
+    <b>
+        5.How to Charge the device? \n \n
+    </b>
+            Can charge the device through the charging port using the DC current or using a power bank. \n \n \n
+    <b>
+        6.Can we use without a mobile phone?\n \n
+    </b>
+            Yes. But the controllers are placed in the mobile app. So the User will be able to on/off and to snooze only. \n \n \n
+    <b>
+        7.What is the Snooze Button used for? \n \n
+    </b>
+            This button is used to stop the continuously sounds from the different sources in the area. (Ex: Sound of a train)
+    When the snooze button is pressed the device will stop vibrating for 10 seconds. \n \n \n
+    <b>
+        8.How to get the correct threshold level for the app? \n \n
+    </b>
+            When going to outdoor it is recommended to put the level more than 50%. When inside it is recommended to put the level less than 50%
+    But it depends on the sound level. \n \n \n
+
+
+</string>
+
+
+</resources>

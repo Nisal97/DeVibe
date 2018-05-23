@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="devibe.com.devibe.SigninActivity">
+
+    <!--HCI
+        Design
+        Accessibility
+        Colour vision deficieny
+            1.red green 2.blue yellow
+        Easy to use
+        Simple
+        Low on errors
+        Get the user attention on the priority
+
+
+        Gestalt theory
+            Visual patterns
+            1.Proximity - close to each other are related
+            2.similarity - treat as a group
+            3.continuity - same pattern
+            4.closure
+            5.readability - to accessed by anyone
+
+
+        Colour combination
+
+            Mental models- easy to recognize and use the system. If can't use it's not accurate. So anybody should be able to use it once the person sees it.
+
+            Technologies to be transparent to the user
+            Giving the user to send feedback
+            FAQ has been given to solve the problem
+            Clear and easy to follow instructions
+
+            Main point - The way the interface is designed can greatly affect the user experience.
+    -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="142dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:maxHeight="50dp"
+        android:src="@drawable/logo1" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/signin_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="User Name"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/lightBlue" />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Password"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/signin_password"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColorHint="@color/lightBlue"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/signin_button"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:background="@drawable/button"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/signin_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:paddingTop="4dp"
+        android:text="@string/signin_signup" />
+
+    <TextView
+        android:id="@+id/forgotpw"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Forgot your Password ?"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"/>
+
+</LinearLayout>
